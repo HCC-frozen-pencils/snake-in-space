@@ -1,21 +1,22 @@
+## zero-G SNAKE!
 import turtle
 
-t = turtle.Turtle()
+
+# snake
+
+snek = turtle.Turtle()
 
 # To make it easier to see the turtle, let's make it a shape!
-t.shape('turtle')
-t.color('green')
+snek.shape('square')
 
-# Let's brighten things up! We can change the background of the screen
-background = t.getscreen()
-background.bgcolor("light blue")
+## barriers
 
-# grinning face
-print("\U00002744", "\U0000270F")
-print("I like to draw and eat frozen fruit!", "\U0001f600")
+## movement on grid
 
-#screen = turtle.Screen()
-#screen.register_shape('car.gif')
+# food
 
-#t = turtle.Turtle()
-#t.shape('car.gif')
+## appear
+
+## disappear
+
+### grow snake
