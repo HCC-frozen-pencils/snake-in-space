@@ -3,8 +3,6 @@ import turtle
 from turtle import Screen
 import pygame
 import random
-import keyboard
-import math
 import time
 from random import randint
 
@@ -100,6 +98,7 @@ class Snake:
 snek = Snake()
 milk = Snake()
 
+milk.head.color('chocolate')
 milk.snake_color = 'chocolate'
 
 
